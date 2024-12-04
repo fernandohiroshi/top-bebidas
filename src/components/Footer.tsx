@@ -35,7 +35,7 @@ function Footer() {
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7197.669080597223!2d-54.574638!3d-25.577171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f69185c795d175%3A0x7f527069053ab3cc!2sAv.%20Morenitas%2C%20752%20-%20Jardim%20das%20Flores%2C%20Foz%20do%20Igua%C3%A7u%20-%20PR%2C%2085855-190!5e0!3m2!1spt-BR!2sbr!4v1733287957103!5m2!1spt-BR!2sbr"
-          width="400"
+          width="480"
           height="250"
           style={{ border: 0 }}
           loading="lazy"
