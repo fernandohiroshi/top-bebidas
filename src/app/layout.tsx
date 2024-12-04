@@ -1,13 +1,12 @@
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
+import Link from 'next/link'
 import { Toaster } from 'react-hot-toast'
-
-import './globals.css'
 import { BsFillArrowUpSquareFill } from 'react-icons/bs'
 
-import DisableRightClick from '@/components/DisableRightClick'
+import './globals.css'
 
-import Link from 'next/link'
+import DisableRightClick from '@/components/DisableRightClick'
 
 const m = Montserrat({ subsets: ['latin'] })
 

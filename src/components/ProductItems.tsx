@@ -25,10 +25,17 @@ function ProductItems({
   delay,
 }: ProductItemsProps) {
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isImageLoaded, setIsImageLoaded] = useState(false)
 
-  // Function to open and close the modal
+  // TOGGLE MODAL OPEN AND CLOSE, AND RESET IMAGE LOAD STATE
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen)
+    setIsImageLoaded(false)
+  }
+
+  // HANDLE IMAGE LOADING COMPLETION
+  const handleImageLoad = () => {
+    setIsImageLoaded(true)
   }
 
   return (
@@ -68,11 +75,10 @@ function ProductItems({
         </div>
       </motion.div>
 
-      {/* Modal to display the enlarged image */}
       {isModalOpen && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70"
-          onClick={toggleModal} // Close the modal when clicking outside the image
+          onClick={toggleModal}
         >
           <div className="relative m-4 bg-white">
             <Image
@@ -82,13 +88,17 @@ function ProductItems({
               height={500}
               quality={100}
               className="max-h-[60vh] w-full max-w-full object-cover object-center"
+              onLoadingComplete={handleImageLoad}
             />
-            <button
-              onClick={toggleModal}
-              className="absolute right-2 top-2 bg-gray-800 text-white"
-            >
-              <X />
-            </button>
+
+            {isImageLoaded && (
+              <button
+                onClick={toggleModal}
+                className="absolute right-2 top-2 bg-gray-800 text-white"
+              >
+                <X />
+              </button>
+            )}
           </div>
         </div>
       )}
