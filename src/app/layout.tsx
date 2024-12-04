@@ -8,7 +8,7 @@ import DisableRightClick from '@/components/DisableRightClick'
 const m = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Top Bebidas',
+  title: 'Top Bebidas - Foz do Iguaçu',
   description:
     'Bebidas, Tabacaria, Produtos para Narguile e Conveniência em Foz do Iguaçu',
 }

@@ -14,7 +14,7 @@ function Hero() {
       <div className="absolute left-0 top-0 z-40 flex h-full w-full items-center justify-center bg-gradient-to-b from-slate-950 to-transparent">
         <div className="flex max-w-[16rem] flex-col text-center md:max-w-md">
           <h2 className="mb-2 animate-pulse text-lg md:text-4xl">
-            Tabacaria e Produtos de Narguile.
+            Produtos de Narguile Tabacaria e Bebidas
           </h2>
         </div>
       </div>

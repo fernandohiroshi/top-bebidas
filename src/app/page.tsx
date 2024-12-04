@@ -134,9 +134,9 @@ export default function Home() {
         <div className="mx-auto flex max-w-5xl items-end justify-between px-4 py-6">
           <Link
             href="/"
-            className="text-sm duration-300 ease-in-out hover:text-cyan-500 md:text-lg"
+            className="text-sm uppercase duration-300 ease-in-out hover:text-cyan-500 md:text-lg"
           >
-            HOOKAH ZONE
+            Tøp Bebidas
           </Link>
           <div className="flex items-center gap-4">
             <Link
