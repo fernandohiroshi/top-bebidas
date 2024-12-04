@@ -1047,20 +1047,36 @@ export const dataProducts: Product[] = [
     image:
       'https://http2.mlstatic.com/D_NQ_NP_758171-MLB78697299022_092024-O.webp',
   },
-  //   {
-  //     id: 131,
-  //     name: 'Rosh Yes Hookah M2 Preto',
-  //     price: 5.0,
-  //     group: 'rosh',
-  //     image:
-  //       'https://galeradonarguile.com.br/media/catalog/product/cache/28b2aad050427587f488ae01203c2bb7/r/o/rosh_yes_hookah_m2_preto.webp',
-  //   },
-  //   {
-  //     id: 132,
-  //     name: 'Rosh Yes Hookah M2 Branco',
-  //     price: 5.0,
-  //     group: 'rosh',
-  //     image:
-  //       'https://galeradonarguile.com.br/media/catalog/product/cache/28b2aad050427587f488ae01203c2bb7/r/o/rosh_yes_hookah_m2_branco.webp',
-  //   },
+    {
+      id: 131,
+      name: 'Rosh Yes Hookah M1 Preto',
+      price: 20.0,
+      group: 'rosh',
+      image:
+        'https://cdn.cosmicjs.com/59639140-b250-11ef-8a63-eb57d6c77a36-yes-flower.webp',
+    },
+    {
+      id: 132,
+      name: 'Rosh Yes Hookah M2 Branco',
+      price: 16.99,
+      group: 'rosh',
+      image:
+        'https://galeradonarguile.com.br/media/catalog/product/cache/28b2aad050427587f488ae01203c2bb7/r/o/rosh_yes_hookah_m2_branco.webp',
+    },
+    {
+      id: 133,
+      name: 'Rosh Yes Hookah Fire Preto',
+      price: 20.0,
+      group: 'rosh',
+      image:
+        'https://cdn.cosmicjs.com/5962cdf0-b250-11ef-8a63-eb57d6c77a36-yes-fire.webp',
+    },
+    {
+      id: 134,
+      name: 'Rosh Yes Hookah M1 Branco',
+      price: 20.0,
+      group: 'rosh',
+      image:
+        'https://galeradonarguile.com.br/media/catalog/product/cache/28b2aad050427587f488ae01203c2bb7/d/s/dsc_0055_1.webp',
+    },
 ]
