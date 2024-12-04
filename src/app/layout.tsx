@@ -3,7 +3,11 @@ import { Montserrat } from 'next/font/google'
 import { Toaster } from 'react-hot-toast'
 
 import './globals.css'
+import { BsFillArrowUpSquareFill } from 'react-icons/bs'
+
 import DisableRightClick from '@/components/DisableRightClick'
+
+import Link from 'next/link'
 
 const m = Montserrat({ subsets: ['latin'] })
 
@@ -75,6 +79,12 @@ export default function RootLayout({
         <DisableRightClick />
         <Toaster position="top-center" reverseOrder={false} />
         {children}
+        <Link
+          href="#"
+          className="fixed bottom-4 right-4 hidden duration-300 ease-in-out hover:scale-110 hover:text-cyan-500 md:block"
+        >
+          <BsFillArrowUpSquareFill size={32} />
+        </Link>
       </body>
     </html>
   )
